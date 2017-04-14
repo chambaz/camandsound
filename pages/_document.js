@@ -15,7 +15,7 @@ export default class Doc extends Document {
           <meta charset='UTF-8' />
           <meta name='viewport' content='width=device-width, minimum-scale=1.0' />
           <meta name='author' content='Cam & Sound' />
-          <script src='https://use.typekit.net/bdw8orc.js'></script>
+          <script src='https://use.typekit.net/qdw7srw.js'></script>
           <script dangerouslySetInnerHTML={{__html: `{try{Typekit.load({ async: true });}catch(e){}}`}}></script>
           <link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet' />
           <style>{`
@@ -29,12 +29,16 @@ export default class Doc extends Document {
 
             body {
               font-family: ${'proxima-nova'};
-              font-weight: 400;
+              font-weight: 300;
             }
 
             h1, h2, h3, h4, h5, h6 {
               font-weight: 800;
               text-transform: uppercase;
+            }
+
+            p {
+              line-height: 1.8;
             }
 
             .container {
