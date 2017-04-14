@@ -1,0 +1,19 @@
+{
+  "name": "camandsound",
+  "version": "0.0.0",
+  "description": "Cam & Sound official website",
+  "main": "pages/index.js",
+  "author": "Adam Chambers <adammchambers@gmail.com>",
+  "license": "ISC",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "eslint-plugin-react": "^6.10.3",
+    "next": "^2.0.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  }
+}
