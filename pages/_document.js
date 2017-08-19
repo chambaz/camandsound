@@ -3,9 +3,9 @@ import flush from 'styled-jsx/server'
 
 export default class Doc extends Document {
   static getInitialProps ({ renderPage }) {
-    const {html, head} = renderPage()
+    const {html, head, chunks} = renderPage()
     const styles = flush()
-    return { html, head, styles }
+    return { html, head, chunks}
   }
 
   render () {
