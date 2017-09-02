@@ -46,8 +46,8 @@ export default (props) => {
           margin: 0 0 1.25em;
         }
 
-        .block__embed :global(iframe) {
-          margin: 0 .625em;
+        .block__embed :global(.block__inline-frame) {
+          margin: 0 .625em .625em;
         }
       `}</style>
     </div>
