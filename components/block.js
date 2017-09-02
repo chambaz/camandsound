@@ -32,18 +32,22 @@ export default (props) => {
         }
 
         .block__subtitle {
-          font-size: 1.4375em;
+          font-size: 1.3em;
           font-weight: 300;
           margin: .158730159em 0;
         }
 
         .block__title {
-          font-size: 3.9375em;
+          font-size: 3em;
           margin: .416666667em 0;
         }
 
         .block__body {
           margin: 0 0 1.25em;
+        }
+
+        .block__embed :global(iframe) {
+          margin: 0 .625em;
         }
       `}</style>
     </div>
