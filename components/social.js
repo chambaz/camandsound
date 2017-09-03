@@ -4,7 +4,7 @@ import Link from 'next/link'
 export default (props) => {
   return (
     <div className='social'>
-      <p className='social__body'>Follow Cam &amp; Sound on:</p>
+      <h2 className='social__body'>Follow Cam &amp; Sound:</h2>
       <ul className='social__list'>
         <li className='social__item'>
           <a className='social__link' href='#'>
@@ -47,6 +47,7 @@ export default (props) => {
 
         .social__item {
           display: inline-block;
+          margin: 0 .3125em;
         }
 
         .social__link {
