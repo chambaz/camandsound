@@ -7,8 +7,8 @@ import Social from '../components/social'
 export default () => (
   <div>
     <Head>
-      <title>Home - This is the title</title>
-      <meta name='description' content='This is the description' />
+      <title>Cam & Sound - A daydream at night...</title>
+      <meta name='description' content='From the suburbs of New York and London, Cam & Sound was born. A unique blend of hip hop, mixing genres and influences from all over. Sit back and enjoy the daydream at night...' />
     </Head>
     <main className='Canvas hide'>
       <Header />
