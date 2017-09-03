@@ -19,6 +19,11 @@ export default class Doc extends Document {
           <script dangerouslySetInnerHTML={{__html: `{try{Typekit.load({ async: true });}catch(e){}}`}}></script>
           <link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet' />
           <style>{`
+            * {
+              margin: 0;
+              box-sizing: border-box;
+            }
+
             body,
             html {
               font-size: 100%;
@@ -46,6 +51,10 @@ export default class Doc extends Document {
               background-size: cover;
               height: 100%;
               overflow: auto;
+            }
+
+            .hide {
+              opacity: 0;
             }
           `}
           </style>
