@@ -23,7 +23,7 @@ export default class Doc extends Document {
           <meta property='og:title' content='Cam & Sound - A daydream at night...' />
           <meta property='og:description' content='From the suburbs of New York and London, Cam & Sound was born. A unique blend of hip hop, mixing genres and influences from all over. Sit back and enjoy the daydream at night...' />
           <meta property='og:url' content='https://camandsound.com/' />
-          <meta property='og:site_name' content='Sperry' />
+          <meta property='og:site_name' content='Cam & Sound' />
           <meta property='og:image' content='https://camandsound.com/static/img/img-share-large.jpg' />
           <meta name='twitter:card' content='summary_large_image' />
           <meta name='twitter:description' content='From the suburbs of New York and London, Cam & Sound was born. A unique blend of hip hop, mixing genres and influences from all over. Sit back and enjoy the daydream at night...' />
